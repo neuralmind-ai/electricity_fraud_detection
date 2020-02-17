@@ -1,0 +1,25 @@
+# Git ignore settings:
+
+## Ignore downloaded data:
+data.csv
+data_compress.zip
+data.z01
+data.z02
+data.zip
+dataprocessed.csv
+
+## Ignore vscode and ipynb checkpoints
+.ipynb_checkpoints/example-checkpoint.ipynb
+.vscode/settings.json
+
+## Ignore pycache
+__pycache__/data.cpython-37.pyc
+__pycache__/evaluate.cpython-37.pyc
+__pycache__/metrics.cpython-37.pyc
+__pycache__/model.cpython-37.pyc
+__pycache__/radam.cpython-37.pyc
+__pycache__/train.cpython-37.pyc
+__pycache__/utils.cpython-37.pyc
+
+## Ignore model checkpoints
+*.pth
